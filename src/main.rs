@@ -23,7 +23,7 @@ fn handle_connection(mut stream: TcpStream) {
 
     // Respond with a simple "Hello world"
     let status_line = "HTTP/1.1 200 OK";
-    let contents = "Hello world";
+    let contents = "Hello World";
     let length = contents.len();
     let content_type = "Content-Type: text/plain; charset=UTF-8";
 
